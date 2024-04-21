@@ -1,7 +1,7 @@
 # Построение AST
 <details>
-    ```console
 
+    ```console
     before walk main
     .   DCL # main.go:4:2
     .   .   NAME-main.a esc(no) Class:PAUTO Offset:0 OnStack Used int tc(1) # main.go:4:2
@@ -117,8 +117,8 @@
 ## На операционной системе Windows 10 не удалось с помощью команды GOSSAFUNC=main go tool compile ./main.go > ssa.html построить SSA, поэтому SSA был построен через сервис https://golang.design/gossa
 ### SSA для main()
 <details>
+
     ```console
-    
     AST
     buildssa-enter
     buildssa-body
@@ -578,6 +578,7 @@
 
 ### SSA для add()
 <details>
+
     ```console
     add help darkmode 
     sources
