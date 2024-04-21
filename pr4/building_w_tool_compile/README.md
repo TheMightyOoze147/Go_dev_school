@@ -574,7 +574,7 @@ https://golang.design/gossa?id=77836985-001b-11ef-9e73-0242ac16000d
 </details>
 
 ### SSA для add()
-https://golang.design/gossa?id=77836985-001b-11ef-9e73-0242ac16000d
+https://golang.design/gossa?id=a4301bb3-001b-11ef-9e73-0242ac16000d
 <details>
 
     AST
