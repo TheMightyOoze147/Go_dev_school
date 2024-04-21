@@ -1,6 +1,7 @@
 # Построение AST
 <details>
     ```console
+
     before walk main
     .   DCL # main.go:4:2
     .   .   NAME-main.a esc(no) Class:PAUTO Offset:0 OnStack Used int tc(1) # main.go:4:2
@@ -117,6 +118,7 @@
 ### SSA для main()
 <details>
     ```console
+    
     AST
     buildssa-enter
     buildssa-body
