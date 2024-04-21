@@ -117,7 +117,7 @@
 
 Перейдите по [ссылке](https://github.com/TheMightyOoze147/Go_dev_school/issues/1), чтобы подробнее ознакомиться с ошибкой
 ### SSA для main()
-https://golang.design/gossa?id=77836985-001b-11ef-9e73-0242ac16000d
+[Ссылка](https://golang.design/gossa?id=77836985-001b-11ef-9e73-0242ac16000d)
 <details>
 
     AST
@@ -577,7 +577,7 @@ https://golang.design/gossa?id=77836985-001b-11ef-9e73-0242ac16000d
 </details>
 
 ### SSA для add()
-https://golang.design/gossa?id=a4301bb3-001b-11ef-9e73-0242ac16000d
+[Ссылка](https://golang.design/gossa?id=a4301bb3-001b-11ef-9e73-0242ac16000d)
 <details>
 
     AST
