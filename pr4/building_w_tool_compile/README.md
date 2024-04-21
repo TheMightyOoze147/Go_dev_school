@@ -1,7 +1,6 @@
 # Построение AST
 <details>
 
-    ```console
     before walk main
     .   DCL # main.go:4:2
     .   .   NAME-main.a esc(no) Class:PAUTO Offset:0 OnStack Used int tc(1) # main.go:4:2
@@ -110,7 +109,6 @@
     .   .   CALLFUNC Walked tc(1) # main.go:12:9
     .   .   CALLFUNC-Fun
     .   .   .   NAME-runtime.printunlock Class:PFUNC Offset:0 Used FUNC-func() tc(1)
-    ```
 </details>
 
 # Построение SSA
@@ -118,7 +116,6 @@
 ### SSA для main()
 <details>
 
-    ```console
     AST
     buildssa-enter
     buildssa-body
@@ -573,15 +570,11 @@
     v15 00009 (12) CALL runtime.printunlock(SB)
     b2  00010 (9) RET
         00011 (?) END
-    ```
 </details>
 
 ### SSA для add()
 <details>
 
-    ```console
-    add help darkmode 
-    sources
     AST
     buildssa-enter
     buildssa-body
@@ -925,5 +918,4 @@
     v16 00016 (12) CALL runtime.printunlock(SB)
     b1  00017 (13) RET
         00018 (?) END
-    ```
 </details>
