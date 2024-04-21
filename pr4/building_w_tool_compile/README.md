@@ -114,6 +114,7 @@
 # Построение SSA
 ## На операционной системе Windows 10 не удалось с помощью команды GOSSAFUNC=main go tool compile ./main.go > ssa.html построить SSA, поэтому SSA был построен через сервис https://golang.design/gossa
 ### SSA для main()
+https://golang.design/gossa?id=77836985-001b-11ef-9e73-0242ac16000d
 <details>
 
     AST
@@ -573,6 +574,7 @@
 </details>
 
 ### SSA для add()
+https://golang.design/gossa?id=77836985-001b-11ef-9e73-0242ac16000d
 <details>
 
     AST
