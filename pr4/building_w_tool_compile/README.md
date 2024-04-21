@@ -1,4 +1,8 @@
 # Построение AST
+После выполнения команды ниже было построенно абстрактное синтаксическое дерево
+```console
+go tool compile -W main.go
+```
 <details>
 
     before walk main
@@ -927,14 +931,12 @@
 
 # Генерация объектного файла
 После выполнения команды ниже программа была скомпилирована в объектный файл main.o
-<details>
-
-    >go tool compile main.go
-</details>
+```console
+go tool compile main.go
+```
 
 # Генерация исполняемого файла
 После выполнения команды ниже программа была скомпилирована и собрана в исполняемый файл main.exe
-<details>
-
-    >go build main.go
-</details>
+```console
+go build main.go
+```
