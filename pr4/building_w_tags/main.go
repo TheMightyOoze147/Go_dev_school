@@ -1,13 +1,11 @@
 package main
 
-func main() {
-	a := 1
-	b := 2
-	if true {
-		add(a, b)
-	}
-}
+import (
+	"fmt"
+)
 
-func add(a, b int) {
-	println(a + b)
+var lang string = "English language is using as default"
+
+func main() {
+	fmt.Println(lang)
 }
