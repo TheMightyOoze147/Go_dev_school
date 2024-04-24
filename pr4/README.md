@@ -2,8 +2,8 @@
 
 - [Первое задание](https://github.com/TheMightyOoze147/Go_dev_school/tree/main/pr4/building_w_tool_compile)
 - [Второе задание](https://github.com/TheMightyOoze147/Go_dev_school/tree/main/pr4/building_w_tags)
-- [Третье задание]()
-- [Четвёртое задание]()
+- [Третье задание](https://github.com/TheMightyOoze147/Go_dev_school/tree/main/pr4/using_go_embed)
+- [Четвёртое задание](https://github.com/TheMightyOoze147/Go_dev_school/tree/main/pr4/using_go_generate)
 
 ## Цель: Получить опыт сборки проекта на языке Golang в дистрибутив с применением тэгов сборки, команды go generate и директивы //go:embed.
 
