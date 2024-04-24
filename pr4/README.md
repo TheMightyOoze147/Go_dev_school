@@ -1,7 +1,7 @@
 # Задание №4: Сборка проекта в дистрибутив
 
 - [Первое задание](https://github.com/TheMightyOoze147/Go_dev_school/tree/main/pr4/building_w_tool_compile)
-- [Второе задание]()
+- [Второе задание](https://github.com/TheMightyOoze147/Go_dev_school/tree/main/pr4/building_w_tags)
 - [Третье задание]()
 - [Четвёртое задание]()
 
