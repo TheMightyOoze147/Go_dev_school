@@ -5,7 +5,7 @@
 //go:embed text_file.txt
 var readme string
 ```
-
+Вывод в консоль:
 ```console
 >go run main.go
 Этот текст будет отображаться в консоли благодаря директиве go:embed
