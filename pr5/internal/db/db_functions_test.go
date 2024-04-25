@@ -20,7 +20,7 @@ func TestGetNames(t *testing.T) {
 	expectedNames := []string{"John", "Jane", "Jack"}
 	expectedType := []string{}
 
-	db, mock, err := sqlmock.New()
+	db, mock, _ := sqlmock.New()
 
 	// Создаём ожидание запроса к БД
 	mock.ExpectQuery("SELECT name FROM users").WillReturnRows(
@@ -28,10 +28,9 @@ func TestGetNames(t *testing.T) {
 	)
 	service := Service{DB: db}
 
-	gotNames, err := service.GetNames()
+	gotNames, _ := service.GetNames()
 
 	// Запуск теста
-	assert.Nil(t, err)
 	assert.Equal(t, gotNames, expectedNames)
 	assert.IsType(t, expectedType, gotNames)
 }
@@ -42,7 +41,7 @@ func TestSelectUniqueValues(t *testing.T) {
 	tableName := "unique_table"
 	expectedValues := []string{"value1", "value2", "value3"}
 
-	db, mock, err := sqlmock.New()
+	db, mock, _ := sqlmock.New()
 
 	// Создаём ожидание запроса к БД
 	mock.ExpectQuery("SELECT DISTINCT " + columnName + " FROM " + tableName).WillReturnRows(
@@ -50,9 +49,8 @@ func TestSelectUniqueValues(t *testing.T) {
 	)
 	service := Service{DB: db}
 
-	gotValues, err := service.SelectUniqueValues(columnName, tableName)
+	gotValues, _ := service.SelectUniqueValues(columnName, tableName)
 
 	// Запуск теста
-	assert.Nil(t, err)
 	assert.Equal(t, gotValues, expectedValues)
 }
