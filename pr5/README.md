@@ -91,5 +91,5 @@ coverage: 82.3% of statements
 Все ошибки в коде были исправлены, линтер более не выводит никаких ошибок.
 <details>
 P.S. После линтера тесты сломались
-<img src="https://media.tenor.com/5aF7np_zPEgAAAAe/pepe-why-pepe-the-frog.png"/>
+<img src="https://media.tenor.com/5aF7np_zPEgAAAAe/pepe-why-pepe-the-frog.png" width="20%" height="20%"/>
 </details>
