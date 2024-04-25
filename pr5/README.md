@@ -10,14 +10,14 @@
 
 ## Выполнение задания
 ### Тесты
-Разработаны тесты для пакетов [wifi](https://github.com/TheMightyOoze147/Go_dev_school/blob/main/pr5/internal/wifi/wi-fi_test.go) и [db](https://github.com/TheMightyOoze147/Go_dev_school/blob/main/pr5/internal/db/db_functions_test.go) с покрытием более 80%:
+Разработаны тесты для пакетов [wifi](https://github.com/TheMightyOoze147/Go_dev_school/blob/main/pr5/internal/wifi/wi-fi_test.go) и [db](https://github.com/TheMightyOoze147/Go_dev_school/blob/main/pr5/internal/db/db_functions_test.go) с применением библиотеки testify/assert и sqlmock и покрытием более 80%:
 ```console
 >go test -cover internal/db
 coverage: 80.6% of statements
 >go test -cover internal/wifi
 coverage: 82.3% of statements
 ```
-Для тестирования использовались mock, эмулирующие работу базы данных и wifi
+Для тестирования использовались mock, эмулирующие работу db и wifi
 ### Линтер
 Вывод линтера до исправления ошибок
 <details>
