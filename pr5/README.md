@@ -21,6 +21,7 @@ coverage: 82.3% of statements
 ### Линтер
 Вывод линтера до исправления ошибок
 <details>
+
         >golangci-lint run      
         level=warning msg="[linters_context] copyloopvar: this linter is disabled because the Go version (1.19) of your project is lower than Go 1.22"
         level=warning msg="[linters_context] intrange: this linter is disabled because the Go version (1.19) of your project is lower than Go 1.22"
